@@ -1,0 +1,16 @@
+Your identification has been saved in /c/Users/ASUS/.ssh/id_rsa
+Your public key has been saved in /c/Users/ASUS/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:5aMKpHXFYahAcy574EbSNn1I9jwbqOHBC3tpOc2J2+w pmartinezleon06@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+| .o +  .o        |
+| o.B =.o .       |
+|o @.=.* o .      |
+| O /.o = o       |
+|. # B o S o      |
+| + X .   . .     |
+|  o +   .        |
+|   . . .         |
+|    E .          |
++----[SHA256]-----+
