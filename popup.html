@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="compu.webp">
+    <link rel="stylesheet" type="text/css" href="ceeseese.css">
+    <title> Prueba de Pop Up </title>
+</head>
+
+<body>
+    <h1> Prueba De Pop Up </h1>
+    <h2> Diarios </h2>
+
+    <iframe id="iframe" src="https://www.abc.com.py/"  height="500px" width="1000px"></iframe>
+    <br><br>
+    <button id="button" onclick="changeLeft()"> anterior </button>
+    <button id="button" onclick="changeRight()"> siguiente </button>
+    <br><br>
+    <button id="button" onclick="openPopup()"> + </button>
+
+    <script>
+        c=0;
+        links =["https://www.abc.com.py/","https://www.ultimahora.com/","https://elpais.com/america/" ];
+        function changeRight(){
+            if(c<links.lenght -1){
+                c +=1;
+            }
+            else{
+                c=0;
+            }
+            document.getElementById('iframe').src=links[c];
+        }
+
+        function changeLeft(){
+            if(c>0){
+                c -=1;
+            }
+            else{
+                c= links.lenght - 1;
+            }
+            document.getElementById('iframe').src=links[c];
+        } 
+
+        function openPopup(){
+            let periodico = prompt("agregue el link para poner en la lista: ", " "); //prompt es el que hace que salga
+           if (periodico !=null || periodico!="") { //si no esta vacio 
+                links.push(periodico);
+            } 
+        }   
+    </script>
+
+</body>
+</html>

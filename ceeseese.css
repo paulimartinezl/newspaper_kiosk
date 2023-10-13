@@ -1,0 +1,21 @@
+html{
+    background-color: rgb(200, 231, 243);
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#button{
+    border-radius: 2pxs;
+    
+}
